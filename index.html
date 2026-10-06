@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KAFFA & EMBER — Specialty Coffee House & Ethiopian Heritage</title>
+    <meta name="description" content="An Ethiopian-inspired coffee house celebrating exceptional beans, thoughtful roasting, and the ritual of slowing down. Coffee rooted in origin. Crafted for today." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="KAFFA & EMBER — Specialty Coffee House" />
+    <meta property="og:description" content="Coffee rooted in origin. Crafted for today. Ethiopian heritage meets modern specialty coffee culture." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="KAFFA & EMBER — Specialty Coffee House" />
+    <meta property="twitter:description" content="Coffee rooted in origin. Crafted for today." />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <!-- JSON-LD Structured Data for Local Business -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CafeOrCoffeeShop",
+      "name": "KAFFA & EMBER",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80",
+      "description": "Modern specialty coffee house inspired by Ethiopian coffee heritage, traditional coffee culture, and artisan roasting.",
+      "telephone": "[PHONE]",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "[ADDRESS]",
+        "addressLocality": "Artisan Quarter",
+        "addressCountry": "US"
+      },
+      "servesCuisine": "Specialty Coffee, Ethiopian Coffee, Bakery",
+      "priceRange": "$$"
+    }
+    </script>
+  </head>
+  <body class="bg-[#FAF7F2] text-[#1C130E] antialiased selection:bg-[#C86D51] selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
